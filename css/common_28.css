@@ -1,0 +1,128 @@
+/* HTML5 ADVENT | ZingChart (www.zingchart.com) | PINT (www.pint.com) */
+
+/* BASIC ELEMENTS
+------------------------------------------------------------------------------------- */
+/* RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,
+em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,
+caption,article,aside,audio,canvas,command,datalist,details,embed,eventsource,figcaption,figure,footer,header,hgroup,keygen,
+mark,meter,nav,output,progress,ruby,rp,rt,section,source,summary,time,video,wbr { margin:0; padding:0; }
+table, th, td { margin:0; }
+
+/* HTML/BODY */
+html { min-height:100%; }
+body {  font-size:14px; line-height:18px; font-family:helvetica,sans-serif; text-align:center;  }
+
+/* LINKS */
+a:link { color:#02bab5; text-decoration:none; }
+a:visited { color:#02bab5; text-decoration:none; }
+a:hover, a:active { color:#02bab5; text-decoration:underline; }
+a img { border:0; }
+
+/* HEADLINES */
+h1 { margin:0 0 10px; color:#b2b2b2; font:bold 30px/30px helvetica,sans-serif; text-shadow:1px 1px 4px #000; }
+h1.headline { margin:0 0 3px; }
+h1.headline span { display:inline-block; }
+h2 { margin:0 0 2px; color:#000; font:normal 18px/20px helvetica,sans-serif; }
+h2.headline { margin:0 0 15px; color:#a8a8a8; font:normal 14px/16px 'FranklinGothicBook',helvetica,sans-serif; text-shadow:1px 1px 2px #000; }
+h3 { margin:0 0 7px; color:#666; font:normal 16px/18px helvetica,sans-serif; }
+h4{ margin:0 0 2px; color:#000; font:normal 18px/20px helvetica,sans-serif; }
+/* -- H1 SPAN colors */
+.color1 { color:#f68d21; }
+.color2 { color:#ff3301; }
+.color3 { color:#b70000; }
+.color4 { color:#02bab5; }
+
+
+/* WRAPPER
+------------------------------------------------------------------------------------- */
+#container { position:relative; margin:0 auto; padding:0; width:80%; text-align:center; }
+
+
+/* HEADER
+
+/* CALENDAR
+------------------------------------------------------------------------------------- */
+#calendar { position:relative; width:100%;  display:block; z-index:10; }
+/* -- Calendar UL */
+.component-calendar { margin:0;width:100%; }
+.component-calendar li { position:relative; width:126px; height:120px; float:left; display:inline; overflow:hidden; list-style:none;  z-index:10; }
+.component-calendar .active:hover { box-shadow:0 0 9px #888787; -moz-box-shadow:0 0 9px #888787; -webkit-box-shadow:0 0 9px #888787; }
+.component-calendar .remove-css:hover { box-shadow:0 0 0; -moz-box-shadow:0 0 0; -webkit-box-shadow:0 0 0; }
+.component-calendar .indent-3 { margin-left:0px; }
+.component-calendar a { position:relative; width:126px; height:120px; display:block;  cursor:default; }
+.component-calendar a:hover { opacity:.14; text-decoration:none; background:#000 url(../images/bg-sprite-24.png) no-repeat 0 -120px; }
+.component-calendar .active a:hover { opacity:1; background:none; cursor:pointer; }
+.component-calendar .active a:hover .day { -moz-border-radius:5px; border-radius:5px; }
+/* -- 'Day' element */
+.component-calendar .day { position:absolute; top:0; left:0; width:126px; height:120px; display:block; font:bold 48px helvetica,sans-serif; z-index:20; }
+.component-calendar .day strong{ position:absolute; top:0; left:0; padding:35px 6px 0; width:114px; height:91px; color:#DBD6D6; font:bold 40px helvetica,sans-serif; z-index:20; }
+.component-calendar .active a:hover .day strong {}
+.component-calendar .day span { position:absolute; top:0; left:0; width:126px; height:120px; opacity:0; z-index:15; -moz-border-radius:5px; border-radius:5px; }
+/* -- Normal, JS-Disabled Hover */
+.component-calendar .color1 a:hover .day, .component-calendar .color1 .day-active { }
+.component-calendar .color2 a:hover .day, .component-calendar .color2 .day-active {}
+.component-calendar .color3 a:hover .day, .component-calendar .color3 .day-active { background-color:#00cccc; background:-moz-linear-gradient(100% 100% 90deg, #01a09c, #00cccc); background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#00cccc), to(#01a09c)); }
+.component-calendar .color4 a:hover .day, .component-calendar .color4 .day-active { background-color:#ff5a2e; background:-moz-linear-gradient(100% 100% 90deg, #ff3301, #ff5a2e); background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff5a2e), to(#ff3301)); }
+/* -- JS-Enabled 'Fade In/Out' Hover */
+.component-calendar .hover { background:none !important; }
+.component-calendar .hover span { }
+.component-calendar .active span { background:none; }
+.component-calendar .color1 .hover span { background-color:#f68d21; background:-moz-linear-gradient(100% 100% 90deg, #f9b774, #f68d21); background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9b774), to(#f68d21)); }
+.component-calendar .color2 .hover span  {;}
+.component-calendar .color3 .hover span { background-color:#00cccc; background:-moz-linear-gradient(100% 100% 90deg, #01a09c, #00cccc); background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#00cccc), to(#01a09c)); }
+.component-calendar .color4 .hover span { background-color:#ff5a2e; background:-moz-linear-gradient(100% 100% 90deg, #ff3301, #ff5a2e); background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff5a2e), to(#ff3301)); }
+/* -- Content Element */
+.component-calendar .content { position:relative; margin:0 0 0 126px; width:126px; height:120px; display:block;  z-index:30; }
+.component-calendar img { margin:0 0 8px; display:block; }
+.component-calendar small { position:absolute; top:4px; left:7px; color:#fff; font-size:24px; line-height:24px; z-index:40; }
+.component-calendar strong { padding:0 0 0 7px; display:block; color:#fff; font:normal 12px/12px helvetica,sans-serif; }
+
+
+/* OVERLAY BOX
+------------------------------------------------------------------------------------- */
+.component-box { position:absolute; padding:0 0 13px; display:none; background:url(../images/bg-box-arrow.png) no-repeat 0 100%; z-index:100; }
+.arrow-left { background-position:20% 100%; }
+.arrow-center { background-position:50% 100%; }
+.arrow-right { background-position:80% 100%; }
+.component-box .inner { position:relative; padding:21px 15px; background:#121212; box-shadow:0 0 9px #121212; -moz-box-shadow:0 0 9px #121212; -webkit-box-shadow:0 0 9px #121212; }
+.component-box .close { position:absolute; top:6px; right:5px; width:10px; height:10px; overflow:hidden; background:url(../images/bg-sprite.png) no-repeat 0 -180px; cursor:pointer; }
+.component-box .close span { position:absolute; top:0; left:0; width:10px; height:10px; overflow:hidden; background:url(../images/bg-sprite.png) no-repeat 0 -180px; cursor:pointer; }
+/* -- Overlay Specifics */
+#overlay-mask { position:absolute;z-index:999; background:url(../images/bg-overlay-main2.png) repeat repeat;display:none;top:0px;left:0px; width:100%;}
+#overlay-main { position:absolute; top:10%; left:30%; margin:0 auto;text-align:left; background:#2f2c26; box-shadow:0 0 19px #4e4138; -moz-box-shadow:0 0 19px #4e4138; -webkit-box-shadow:0 0 19px #4e4138; z-index:1000; }
+/*#overlay-main { position:absolute; top:0; left:0; margin:0 auto; padding:10px; width:666px; height:410px; text-align:left; background:#d9d9d9 url(../images/bg-overlay-main.png) repeat-x 0 0; box-shadow:0 0 19px #000; -moz-box-shadow:0 0 19px #000; -webkit-box-shadow:0 0 19px #000; z-index:1000; }*/
+#overlay-body { overflow:hidden; margin:0 auto; padding-top:30px;width:80%; }
+/*#overlay-body { position:absolute; top:0;left:0; margin:0 auto; padding:10px; }*/
+#overlay-close { position:absolute;  right:10%; width:30px; height:30px; overflow:hidden; background:url(../images/close.png) no-repeat; cursor:pointer; }
+#overlay-close span { position:absolute; top:0; left:0; width:30px; height:30px; display:block; background:url(../images/close.png) no-repeat; cursor:pointer; }
+#overlay-main .left { width:100%; float:left; display:inline; }
+#overlay-main .right { margin-left:20px; padding:19px 0 0; width:40%; float:right; display:inline; word-wrap:break-word;}
+#overlay-main p { margin:0 0 20px; }
+#overlay-main .caption { margin:4px 0 0; }
+
+
+/* 'DAY' DETAIL
+------------------------------------------------------------------------------------- */
+#daydetail { margin:170px 0 0; }
+.js #daydetail { display:none; }
+/* -- List Styles */
+#daydetail-list { margin:0 auto; width:100%; }
+#daydetail-list li { margin:0 0 25px; list-style:none; }
+#daydetail-list .top { margin:8px 0 0; width:100%; text-align:right; }
+#daydetail-list p { margin:0 0 7px; }
+/* -- Content */
+.daydetail-content { padding:10px; width:666px; background:#d9d9d9 ; }
+.daydetail-content .left { float:left; display:inline; }
+.daydetail-content .right { margin-right:27px; padding:19px 0 0; width:264px; float:right; display:inline; }
+/* -- Caption */
+.caption { margin:4px 0 0; color:#666; }
+.caption strong { color:#000; font-size:16px; }
+
+
+/* FOOTER
+------------------------------------------------------------------------------------- */
+
+/* MISC. CLASSES & IDS
+------------------------------------------------------------------------------------- */
+.clearfix:after, .component-calendar:after, .daydetail-content:after { content:''; display:block; clear:both; }

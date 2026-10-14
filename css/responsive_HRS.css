@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+ 
+ 	@media only screen and (max-width : 320px) {
+		
+		#naslov_left{text-align:center;font-family: arial,helvetica,sans-serif;}
+		#naslov_right{text-align:center;margin-left:0px;font-family: arial,helvetica,sans-serif;}
+		.naslov{height:80px;font-family: arial,helvetica,sans-serif;}
+		h4 { font-family: arial,helvetica,sans-serif; font-size:12px;color:#000;margin-top: -4px;	}
+		.content-mobile {text-align:center;}		
+	
+ 	}
+  	
+	@media only screen and (max-width : 768px) {
+		#hotelde_logo{height:25px;}
+		#naslov_right{text-align:center;margin-left:0px;font-family: arial,helvetica,sans-serif;}
+		.naslov{height:80px;font-family: arial,helvetica,sans-serif;}
+		#calendar {width:100%;}
+		.content-mobile {text-align:center;}
+		
+		.component-calendar {max-width:1000px; margin:0 auto;}
+		h4 { font-family: arial,helvetica,sans-serif; font-size:12px;color:#000;margin-top: -3px;}
+		.component-calendar li {  width:30px; height:30px; font-family: arial,helvetica,sans-serif; }
+		.component-calendar a {  width:30px; height:30px; opacity:0.8; filter: alpha(opacity=80);background-color:#d4e6f8;font-family: arial,helvetica,sans-serif;}
+		.component-calendar a:hover {  width:30px; height:30px; opacity:1; filter: alpha(opacity=1);font-family: arial,helvetica,sans-serif;}
+		.component-calendar .day { width:30px; height:30px; display:block; font:bold 14px helvetica,sans-serif;opacity:0; filter: alpha(opacity=0); }
+		.component-calendar .day strong{ padding:16px 6px 0; width:30px; height:30px;  font: 14px helvetica,sans-serif; opacity:0; filter: alpha(opacity=0); }
+		.component-calendar small { padding:16px 6px 0; color:#f57f0c; font: 14px helvetica,sans-serif;  z-index:40; }
+		.component-calendar strong { padding:0 0 0 7px; display:block; color:#000; font:normal 8px helvetica,sans-serif;opacity:0; filter: alpha(opacity=0); }
+		.component-calendar .day span { position:absolute; top:0; left:0; width:30px; height:30px; opacity:0; z-index:15;}
+		.gutschein {background-position:top left;background-image:url(assets/images/hrs_bg2.jpg); background-repeat:no-repeat;background-position-x: center;top:0px;height:1500px;}
+	
+		#container {padding-top:0; width:90%; text-align:center; }
+		#sirina1 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina2 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina3 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina4 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina5 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina6 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		
+		#sirina1 {width:90px; height:90px;background-image:url(assets/images/4_a.jpg);background-size:90px 90px;background-repeat:no-repeat;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina2 {width:90px; height:90px;background-image:url(assets/images/11_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina3 {width:90px; height:90px;background-image:url(assets/images/16_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina4 {width:90px; height:90px;background-image:url(assets/images/5_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina5 {width:90px; height:90px;background-image:url(assets/images/9_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina6 {width:90px; height:90px;background-image:url(assets/images/22_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		
+		#sirina7 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina8 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina9 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina10 a  {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina11 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina12 a {width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		
+		#sirina7 {width:90px; height:90px;background-image:url(assets/images/10_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina8 {width:90px; height:90px;background-image:url(assets/images/23_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina9 {width:90px; height:90px;background-image:url(assets/images/1_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina10 {width:90px; height:90px;background-image:url(assets/images/14_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina11 {width:90px; height:90px;background-image:url(assets/images/7_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina12 {width:90px; height:90px;background-image:url(assets/images/3_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		
+		#sirina13 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina14 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina15 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina16 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina17 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		
+		
+		#sirina13 {width:90px; height:90px;background-image:url(assets/images/17_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina14 {width:90px; height:90px;background-image:url(assets/images/24_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina15 {width:90px; height:90px;background-image:url(assets/images/2_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina16 {width:90px; height:90px;background-image:url(assets/images/20_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina17 {width:90px; height:90px;background-image:url(assets/images/6_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		
+		#sirina18 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina19 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina20 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina21 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina22 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina23 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina24 a{width:90px; height:90px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		
+		#sirina18 {width:90px; height:90px;background-image:url(assets/images/12_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina19 {width:90px; height:90px;background-image:url(assets/images/21_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina20 {width:90px; height:90px;background-image:url(assets/images/13_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina21 {width:90px; height:90px;background-image:url(assets/images/19_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina22 {width:90px; height:90px;background-image:url(assets/images/8_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina23 {width:90px; height:90px;background-image:url(assets/images/15_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		#sirina24 {width:90px; height:90px;background-image:url(assets/images/18_a.jpg);background-size:90px 90px;background-repeat:no-repeat;}
+		
+		#overlay-main { position:absolute; top:50px !important;width:90%; left:5%; margin:0 auto;text-align:left; background:#fff;  z-index:1000; }
+		
+	}
+	
+	
+	@media only screen and (min-width : 769px) {
+		#naslov_left{text-align:left;}
+		#naslov_right{text-align:center;margin-left:250px;}
+		.naslov{height:70px;}
+		#calendar {width:90%;}
+		.content-mobile {text-align:left;}
+		
+	h4 { font-family: arial,helvetica,sans-serif;font-size:24px; color:#000;}
+	.component-calendar {max-width:1000px; margin:0 auto;}
+		.component-calendar li {  width:30px; height:30px;  }
+		.component-calendar a {  width:30px; height:30px; opacity:0.8; filter: alpha(opacity=80);background-color:#d4e6f8;}
+		.component-calendar a:hover {  width:30px; height:30px; opacity:1; filter: alpha(opacity=1); }
+		.component-calendar .day { width:30px; height:30px; display:block; font:bold 14px helvetica,sans-serif;opacity:0; filter: alpha(opacity=0); }
+		.component-calendar .day strong{ padding:16px 6px 0; width:30px; height:30px;  font: 14px helvetica,sans-serif;opacity:0; filter: alpha(opacity=0);  }
+		.component-calendar small { padding:16px 6px 0; color:#f57f0c; font: 14px helvetica,sans-serif;  z-index:40; }
+		.component-calendar strong { padding:0 0 0 7px; display:block; color:#000; font:normal 8px helvetica,sans-serif; opacity:0; filter: alpha(opacity=0);}
+		.component-calendar .day span { position:absolute; top:0; left:0; width:30px; height:30px; opacity:0; z-index:15;opacity:0; filter: alpha(opacity=0);}
+		.gutschein {background-position:top center;background-image:url(assets/images/hrs_bg2.jpg); background-repeat:no-repeat;top:0px;height:992px;}
+		
+		#container {padding-top:0px;  text-align:center; }
+		#sirina1 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina2 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina3 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina4 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina5 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina6 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		
+		
+		#sirina1 {width:118px; height:118px;background-image:url(assets/images/4_a.jpg);background-repeat:no-repeat;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina2 {width:118px; height:118px;background-image:url(assets/images/11_a.jpg);background-repeat:no-repeat;}
+		#sirina3 {width:118px; height:118px;background-image:url(assets/images/16_a.jpg);background-repeat:no-repeat;}
+		#sirina4 {width:118px; height:118px;background-image:url(assets/images/5_a.jpg);background-repeat:no-repeat;}
+		#sirina5 {width:118px; height:118px;background-image:url(assets/images/9_a.jpg);background-repeat:no-repeat;}
+		#sirina6 {width:118px; height:118px;background-image:url(assets/images/22_a.jpg);background-repeat:no-repeat;}
+		
+		#sirina7 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina8 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina9 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina10 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina11 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina12 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		
+		#sirina7 {width:118px; height:118px;background-image:url(assets/images/10_a.jpg);background-repeat:no-repeat;}
+		#sirina8 {width:118px; height:118px;background-image:url(assets/images/23_a.jpg);background-repeat:no-repeat;}
+		#sirina9 {width:118px; height:118px;background-image:url(assets/images/1_a.jpg);background-repeat:no-repeat;}
+		#sirina10 {width:118px; height:118px;background-image:url(assets/images/14_a.jpg);background-repeat:no-repeat;}
+		#sirina11 {width:118px; height:118px;background-image:url(assets/images/7_a.jpg);background-repeat:no-repeat;}
+		#sirina12 {width:118px; height:118px;background-image:url(assets/images/3_a.jpg);background-repeat:no-repeat;}
+		
+		#sirina13 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina14 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina15 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina16 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina17 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		
+		#sirina13 {width:118px; height:118px;background-image:url(assets/images/17_a.jpg);background-repeat:no-repeat;}
+		#sirina14 {width:118px; height:118px;background-image:url(assets/images/24_a.jpg);background-repeat:no-repeat;}
+		#sirina15 {width:118px; height:118px;background-image:url(assets/images/2_a.jpg);background-repeat:no-repeat;}
+		#sirina16 {width:118px; height:118px;background-image:url(assets/images/20_a.jpg);background-repeat:no-repeat;}
+		#sirina17 {width:118px; height:118px;background-image:url(assets/images/6_a.jpg);background-repeat:no-repeat;}
+		
+		#sirina18 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina19 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina20 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina21 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina22 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina23 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		#sirina24 a {width:118px; height:118px;opacity:0.8 !important;filter: alpha(opacity=80) !important;}
+		
+		#sirina18 {width:118px; height:118px;background-image:url(assets/images/12_a.jpg);background-repeat:no-repeat;}
+		#sirina19 {width:118px; height:118px;background-image:url(assets/images/21_a.jpg);background-repeat:no-repeat;}
+		#sirina20 {width:118px; height:118px;background-image:url(assets/images/13_a.jpg);background-repeat:no-repeat;}
+		#sirina21 {width:118px; height:118px;background-image:url(assets/images/19_a.jpg);background-repeat:no-repeat;}
+		#sirina22 {width:118px; height:118px;background-image:url(assets/images/8_a.jpg);background-repeat:no-repeat;}
+		#sirina23 {width:118px; height:118px;background-image:url(assets/images/15_a.jpg);background-repeat:no-repeat;}
+		#sirina24 {width:118px; height:118px;background-image:url(assets/images/18_a.png);background-repeat:no-repeat;}
+		
+		#overlay-main { position:absolute; top:100px !important;width:50%; left:25%; margin:0 auto;text-align:left; background:#fff;  z-index:1000; }
+	}	
+		
+

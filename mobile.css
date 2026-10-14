@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+/* Mobile Style */
+@media screen and (max-width:1024px) {
+	h1{
+		font-size:2.5em;
+	}
+	h2{
+		font-size:30px;
+	}
+	h4{
+		font-size:1.2em;font-weight:300;
+	}
+	h3{
+		font-size:2em;color:#fff;
+	}
+	h5 {  font-size:1em; font-weight:400; text-transform:none;color:#fff; }
+	body { padding:0em;font-family:Arial;}
+	 .layer2{padding:15px; font-size:0.8em; font-weight:300; color:#fff; position:relative;line-height:1.2em;top:20%;}
+	  .layerA2{ font-size:0.8em; font-weight:300; color:#fff; position:absolute;line-height:1.2em;}
+	  p { font-size:1em;  text-transform:none; text-align:left;font-weight:200;padding-left:0px; }
+	  #pp { font-size:1em;  text-transform:uppercase; text-align:left;font-weight:200;padding:0px ;color:#fff; }
+	  	#in {font-family: arial;font-size:16px; padding:5px; }
+		#in2 {font-family: arial;font-size:16px; padding:5px; }	
+	#maske {color:#000; font-weight:700;margin-left:0px;font-size:1.2em;}	
+	.hs_arrival.hasDatepicker
+
+{font-family: arial;font-size:12px;padding:5px;}
+.hs_departure.hasDatepicker
+
+{font-family: arial;font-size:12px;padding:5px;}
+.ui-datepicker-trigger {height:18px;}	
+.layer{top:75%;height:25%; background: rgba(22,186,222,0.8);position:relative;}	
+
+
+
+.in {width:90%;}
+ .headerfont{font-size:12px; text-transform:uppercase; color:#000; font-family:Arial; text-align:center;padding-top: 20px;}	  	
+}
+
+@media screen and (max-width:960px) {
+	h1{
+		font-size:2em;
+	}
+	h2{
+		font-size:18px;
+	}
+	h4{
+		font-size:1.2em;font-weight:300;padding:10px 0 0 10px;
+	}
+	h3{
+		font-size:1.8em;color:#fff;
+	}
+	h5 {  font-size:1em; font-weight:300; text-transform:none;color:#fff; }
+	body { padding:0em;font-family:Arial;}
+	 .layer2{padding:15px; font-size:0.8em; font-weight:300; color:#fff; position:relative;line-height:1.2em;top:10%;}
+	  .layerA2{ font-size:0.8em; font-weight:300; color:#fff; position:absolute;line-height:1.2em;}
+	  p { font-size:0.8em;  text-transform:none; text-align:left;font-weight:200;padding:10px ; padding-left:0px;}
+	  #pp { font-size:0.8em;  text-transform:uppercase; text-align:left;font-weight:200;padding:0px ;color:#fff; }
+	  	#in {font-family: arial;font-size:16px; padding:2px; }
+		#in2 {font-family: arial;font-size:10px; padding:5px; }	
+	 #maske {color:#000; font-weight:700;margin-left:0px;font-size:1em;}
+	.hs_arrival.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}  
+.hs_departure.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}
+.ui-datepicker-trigger {height:12px;}
+
+.layer{top:75%;height:25%; background: rgba(22,186,222,0.8);position:relative;}	
+
+	#ljevo {height:400px;}
+
+
+.in {width:90%;}
+.headerfont{font-size:10px; text-transform:uppercase; color:#000; font-family:Arial; text-align:center;padding-top: 20px;}
+
+	
+}
+@media screen and (max-width:630px) {
+	h2{
+		font-size:16px;
+	}
+	.hs_arrival.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}  
+.hs_departure.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}
+.ui-datepicker-trigger {height:10px;}
+  #pp { font-size:0.8em;  text-transform:uppercase; text-align:left;font-weight:200;padding:0px ;color:#fff; }
+
+.layer{top:75%;height:25%; background: rgba(22,186,222,0.8);position:relative;}
+
+	#mobi {display:none;}
+	#mobi2 {margin-left:30px; }
+.in {width:90%;}
+
+	#ljevo {height:400px;}
+.logo { width:166px;}
+		
+}
+
+
+@media screen and (max-width:550px) {
+	h1 {
+		font-size:2em;
+	}
+	h2{
+		font-size:16px;
+	}
+	.layer2 h3{
+		font-size:1.8em;color:#fff;
+	}
+	.layer2 h5 {  font-size:1em; font-weight:400; text-transform:none;color:#fff; }
+	
+	  #ljevo, #desno {height:600px;}
+	  #ljevo1 {margin-top:380px;}
+	   /*
+#ljevo1  {height:380px;}*/
+	body { padding:0em;font-family:Arial;}
+	  .layer2{padding:15px; font-size:0.6em; font-weight:300; color:#fff; position:relative;line-height:1.2em;top:5%;}
+	  .layerA2{ font-size:0.6em; font-weight:300; color:#fff; position:absolute;line-height:1.2em;}
+	  p { font-size:0.8em;  text-transform:none; text-align:left;font-weight:200;padding:10px ;padding-left:0px; }
+	  #pp { font-size:0.8em;  text-transform:uppercase; text-align:left;font-weight:200;padding:0px ;color:#fff; }
+	#in {font-family: arial;font-size:14px; padding:2px; }
+	#in2 {font-family: arial;font-size:10px; padding:5px; }
+	#maske {color:#000; font-weight:700;margin-left:0px;font-size:1em;}	
+	.hs_arrival.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}
+.hs_departure.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}
+.ui-datepicker-trigger {height:10px;}	
+
+#desno {height:430px;}
+	#ljevo {height:400px;}
+	.layerA {height:45%;}
+	.layer {height:0%;} 
+	#mobi {display:none;}
+	#mobi2 {margin-left:30px;}
+	.in {width:90%;}
+.mobifooter{display:none;}
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	h2{
+		font-size:28px;
+	}
+	.normalfooter{display:none;}
+	
+	#ljevo, #desno, #left, #right  {
+		margin: 0;
+		width: 100%;}
+		#ljevo1 {margin-top:380px;} 
+	
+ .layer2{padding:15px; font-size:0.8em; font-weight:300; color:#fff; position:relative;line-height:1.2em;top:5%;}
+  .layerA2{ font-size:1em; font-weight:700; color:#fff; position:absolute;line-height:1.2em;}
+  h1 {
+		font-size:2.5em;
+	}
+  .layer2 h3{
+		font-size:1.5em;color:#fff;
+	}
+	.layer2 h5 {  font-size:1em; font-weight:400; text-transform:none;color:#fff; }
+	body { padding:0em;font-family:Arial;}
+	p { font-size:0.8em;  text-transform:none; text-align:left;font-weight:200;padding:10px ;padding-left:0px; }
+	#pp { font-size:0.8em;  text-transform:uppercase; text-align:left;font-weight:200;padding:0px ;color:#fff; }
+	#in {font-family: arial;font-size:16px; padding:5px; }
+	#in2 {font-family: arial;font-size:16px; padding:5px; }
+	#maske {color:#000; font-weight:700;margin-left:0px;font-size:1em;}
+.hs_arrival.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}
+.hs_departure.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}
+.ui-datepicker-trigger {height:10px;}
+
+#desno {height:350px;}
+	#ljevo {height:200px;}
+	.layerA {height:45%;}
+	.layer {height:0%;} 
+	#mobi {display:none;}
+	#mobi2 {margin-left:30px;}
+	.in {width:30%;}
+	#text {font-size:1em;} 	
+}
+@media only screen and (max-width: 320px) {
+	h2{
+		font-size:16px;
+	}
+	#ljevo, #desno, #left, #right  {
+		margin: 0;
+		width: 100%;}
+		#ljevo1 {margin-top:380px;} 
+	
+	#desno {height:350px;}
+	#ljevo {height:200px;}
+	.layerA {height:45%;}
+	.layer {height:0%;}
+	
+ .layer2{padding:15px; font-size:0.8em; font-weight:300; color:#fff; position:relative;line-height:1.2em;top:5%;}
+  .layerA2{ font-size:1em; font-weight:300; color:#fff; position:absolute;line-height:1.2em;}
+  h1 {
+		font-size:1.8em;
+	}
+ .layer2 h3{
+		font-size:1.2em;color:#fff;
+	}
+	.layer2h5 {  font-size:1em; font-weight:400; text-transform:none;color:#fff; }
+	body { padding:0em;font-family:Arial;}
+	p { font-size:0.8em;  text-transform:none; text-align:left;font-weight:200;padding:10px ;padding-left:0px; }
+	#pp { font-size:0.8em;  text-transform:uppercase; text-align:left;font-weight:200;padding:0px ;color:#fff; }
+	#in {font-family: arial;font-size:16px; padding:5px; }
+	#in2 {font-family: arial;font-size:16px; padding:5px; }
+	#maske {color:#000; font-weight:700;margin-left:0px;font-size:0.8em;}
+	.hs_arrival.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}
+.hs_departure.hasDatepicker
+
+{font-family: arial;font-size:9px;padding:5px;}
+.ui-datepicker-trigger {height:10px;}	
+#mobi {display:none;}
+#mobi2 {margin-left:30px;}
+.in {width:30%;}
+
+}
+
+/* Mobile Style */
+@media screen and (min-width:480px) {
+	#tel {display:none;}
+	#mobifooter{display:none;}
+}
+
+   
+
